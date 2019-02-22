@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-latest.js"></script>
+    <script src="jquery-ui.min.js"></script>    
+    <title>Document</title>
+</head>
+    <body id="body">
+        <header>
+            <h1>Formularios</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Sueldo</h2>
+                <form id="formSueldo" method="POST">
+                    <input id="sueldo" type="number" required placeholder="$ Sueldo"><br>
+                    <input id="btnSueldo" type="submit"><br>
+                    <div class="resultado" id="resultadoSueldo"></div>
+                </form>
+            </article>
+            <hr>
+            <article>
+                <h2>Array</h2>
+                <form id="formArray" method="POST">
+                    <input id="numero" type="number" required placeholder="Número"><br>
+                    <input id="btnNumero" type="submit"><br>
+                    <div class="resultado" id="resultadoArray"></div>
+                </form>
+            </article>
+        </section>
+    </body>
+    <script src="index.js" type="module"></script>
+</html>
+
